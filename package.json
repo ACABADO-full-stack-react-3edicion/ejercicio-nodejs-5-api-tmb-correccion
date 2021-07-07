@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node tmb",
+    "dev": "nodemon -q tmb"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,12 @@
     "eslint-plugin-import": "^2.23.4"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.3.0"
+    "chalk": "^4.1.1",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
   }
 }
